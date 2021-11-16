@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #515d63;
+  font-family: 'Open Sans',arial, sans-serif;
+}
+
+.Main {
+  padding: 10px;
+  grid-template-columns: minmax(auto, 1080px);
+  display: grid;
+  margin: 8px;
+  justify-content: center;
+  
+}

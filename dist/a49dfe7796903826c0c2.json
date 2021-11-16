@@ -1,0 +1,15 @@
+{
+    "short_name": "Graftsoft Store",
+    "name": "A simple Store",
+    "icons": [
+      {
+        "src": "store.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "#222",
+    "theme_color": "#222",
+    "display": "standalone"
+  }
