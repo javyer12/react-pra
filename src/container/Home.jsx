@@ -1,11 +1,14 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Helmet } from 'react-helmet';
 import initialState from '../../initialState';
 import Products from '../components/Products';
+import Recommend from './FlorRecommend';
+import sowTips from './browser/sowTips'
 
 //npx create-strapi-app my-graft --quickstart
 
 const Home = () => {
+ 
   return (
     <>
       <Helmet>
@@ -32,6 +35,7 @@ const Home = () => {
         <meta property="fb:app_id" content="ID_APP_FACEBOOK" />
       </Helmet>
       <Products products={initialState.products} />
+      <Recommend />
     </>
   );
 };
